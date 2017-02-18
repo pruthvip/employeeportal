@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product page</title>
+    <link rel="stylesheet" type="text/css" href="./src/css/app.css">
+</head>
+<body>
+
+<div id="app">
+
+    <div class="container">
+        <h1>Employee Data</h1>
+
+        <form class="emp__form" id="js-emp-form">
+            <div class="form display-t layout-fixed-t">
+                <div class="form__input display-td">
+                    <input class="app-input" type="number" name="empId" placeholder="empolyee id" id="js-emp-id-form" required/>
+                </div>
+                <div class="form__input display-td">
+                    <input class="app-input" type="text" name="empName" placeholder="empolyee Name" id="js-emp-name-form" required/>
+                </div>
+                <div class="form__select display-td">
+                    <select id="js-emp-gender-form">
+                        <option value="M">
+                            Male
+                        </option>
+                        <option value="F">
+                            Female
+                        </option>
+                    </select>
+                </div>
+                <div class="form__action display-td">
+                    <button class="btn btn__add"
+                        id="js-add-emp-data"
+                        type="submit">
+                        Add Record
+                    </button>
+                </div>
+            </div>
+
+        </form>
+        <div class="emp__details">
+            <ul class="emp__list display-t layout-fixed-t" id="js-emp-list">
+
+            </ul>
+        </div>
+
+        <div class="emp__edit m15">
+
+            <form class="emp__form hide" id="js-emp-edit-form">
+                <h2>Edit the employee info</h2>
+                <div class="form display-t">
+                    <div class="form__input display-td">
+                        <input class="app-input" type="number" name="empId" placeholder="empolyee id" id="js-edit-emp-id" required/>
+                    </div>
+                    <div class="form__input display-td">
+                        <input class="app-input" type="text" name="empName" placeholder="empolyee Name" id="js-edit-emp-name" required/>
+                    </div>
+                    <div class="form__select display-td">
+                        <select id="js-edit-emp-gender">
+                            <option value="M">
+                                Male
+                            </option>
+                            <option value="F">
+                                Female
+                            </option>
+                        </select>
+                    </div>
+                    <div class="form__action display-td">
+                        <button class=""
+                                id="js-edit-emp-data"
+                                type="submit">
+                            Edit Record
+                        </button>
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+
+</div>
+<script src="./src/js/app.js"></script>
+</body>
+</html>

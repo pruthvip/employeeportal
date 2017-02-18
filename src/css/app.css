@@ -1,0 +1,90 @@
+body {
+    padding: 50px;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+/**
+basic elements
+ */
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+form {
+    background-color: #e7e7e7;
+}
+
+input {
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #eee;
+}
+
+.btn {
+    border: none;
+    background-color: inherit;
+    border-radius: 3px;
+}
+
+.btn__add {
+    background-color: green;
+    padding: 10px;
+    color: #fff;
+    border: 1px solid #eee;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+
+
+/**
+helper classes
+ */
+.display-t {
+    display: table;
+    width: 100%;
+    border: 1px solid #eee;
+}
+
+.layout-fixed-t {
+    table-layout: fixed;
+}
+
+.display-tr {
+    display: table-row;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+}
+
+
+.display-td {
+    padding: 10px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.hide {
+    display: none;
+}
+
+.m15 {
+    margin: 15px;
+}
+
+
+/**
+page css
+ */
+
+.image-action {
+    display: block;
+    width: 30px;
+    height: 30px;
+}
