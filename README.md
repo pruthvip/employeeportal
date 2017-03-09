@@ -1,4 +1,5 @@
-# js-product-page
-A simple product page - No framework
+Its a simple app, where TableHander contains the main code.
 
-https://pruthvip.github.io/js-product-page/index.html?
+TableHandler exposes the an init function, which in turn calls the _render function.
+
+All _render function renders the app based on the state, and attaches the events also.
